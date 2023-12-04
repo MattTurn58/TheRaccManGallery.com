@@ -1,0 +1,89 @@
+.menu-button1 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.menu-button,
+.menu-button2,
+.menu-button4,
+.menu-button6 {
+  text-decoration: none;
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  z-index: 0;
+  color: inherit;
+}
+.menu-button2,
+.menu-button4,
+.menu-button6 {
+  z-index: 1;
+}
+.menu-button4,
+.menu-button6 {
+  z-index: 2;
+}
+.menu-button6 {
+  z-index: 3;
+}
+.menu-child {
+  position: absolute;
+  top: 3px;
+  left: -6px;
+  background-color: #bababa;
+  width: 42px;
+  height: 42px;
+}
+.menu-inner,
+.menu-item {
+  position: absolute;
+  height: 18.52%;
+  width: 100%;
+  top: 44.44%;
+  right: -18.33%;
+  bottom: 37.04%;
+  left: 18.33%;
+  background-color: var(--color-black);
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+.menu-inner {
+  top: 123.33%;
+  right: -8.67%;
+  bottom: -41.85%;
+  left: 8.67%;
+  transform: rotate(-45deg);
+}
+.menu {
+  position: absolute;
+  margin: 0 !important;
+  top: -45px;
+  left: 194px;
+  width: 30px;
+  height: 27px;
+  z-index: 4;
+}
+.nav {
+  position: relative;
+  background-color: var(--color-white);
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-forma-djr-micro);
+}

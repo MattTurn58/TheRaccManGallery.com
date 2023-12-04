@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./i-phone-s-e-gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        :font-family: "Forma DJR Micro";
+        src: url("FormaDJRMicro-Regular.ttf");
+        font-weight: 500;
+      }
+      @font-face {
+        :font-family: "Arial";
+        src: url("ArialMT.woff");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Arial";
+        src: url("Arial-BoldMT.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "Arial";
+        src: url("ArialMT.ttf");
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="iphone-se-gallery">
+      <div class="header4"></div>
+      <img class="logo-icon4" alt="" src="./public/logo1@2x.png" />
+
+      <div class="iphone-se-gallery-child"></div>
+      <div class="the-raccman-gallery4">THE RACCMAN GALLERY</div>
+      <img
+        class="screenshot-2023-11-18-003613-12"
+        alt=""
+        src="./public/screenshot-20231118-003613-11@2x.png"
+      />
+
+      <img
+        class="dennis-rockwell-12"
+        alt=""
+        src="./public/dennis-rockwell-11@2x.png"
+      />
+
+      <img
+        class="kita-portrait-12"
+        alt=""
+        src="./public/kita-portrait-11@2x.png"
+      />
+
+      <img class="yonora-bust-12" alt="" src="./public/yonora-bust-11@2x.png" />
+
+      <div class="footer4"></div>
+      <div class="raccman1014">RaccMan101</div>
+      <div class="deviantart-logo-24">
+        <img
+          class="deviantart-logo-14"
+          alt=""
+          src="./public/deviantart-logo-11@2x.png"
+        />
+      </div>
+      <a class="instagram-logo-24" href="https://www.instagram.com/raccman101/">
+        <img
+          class="deviantart-logo-14"
+          alt=""
+          src="./public/instagram-logo-11@2x.png"
+        />
+      </a>
+      <a class="tumblr-logo-23" href="https://www.tumblr.com/raccman101">
+        <img
+          class="deviantart-logo-14"
+          alt=""
+          src="./public/tumblr-logo-11@2x.png"
+        />
+      </a>
+      <img
+        class="navi-clothed-11"
+        alt=""
+        src="./public/navi-clothed-1@2x.png"
+      />
+
+      <img
+        class="dahlas-vanderloth-11"
+        alt=""
+        src="./public/dahlas-vanderloth-1@2x.png"
+      />
+
+      <a class="terms-of-service8" href="./i-phone-s-e-t-o-s.html">
+        <div class="terms-of-service9">Terms of Service</div>
+      </a>
+      <button class="ham-menu3" id="hamMenu">
+        <div class="ham-menu-child9"></div>
+        <div class="ham-menu-child10"></div>
+        <div class="ham-menu-child11"></div>
+        <div class="ham-menu-child12"></div>
+      </button>
+    </div>
+
+    <div id="navContainer" class="popup-overlay" style="display: none">
+      <div class="nav">
+        <a class="menu-button" href="./i-phone-s-e-home.html">
+          <div class="menu-button1">Home</div>
+        </a>
+        <a class="menu-button2" href="./i-phone-s-e-gallery.html">
+          <div class="menu-button1">Gallery</div>
+        </a>
+        <a class="menu-button4" href="./i-phone-s-e-shop.html">
+          <div class="menu-button1">Shop</div>
+        </a>
+        <a class="menu-button6" href="./i-phone-s-e-commission.html">
+          <div class="menu-button1">Commission</div>
+        </a>
+        <div class="menu">
+          <div class="menu-child"></div>
+          <div class="menu-item"></div>
+          <div class="menu-inner"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var hamMenu = document.getElementById("hamMenu");
+      if (hamMenu) {
+        hamMenu.addEventListener("click", function () {
+          var popup = document.getElementById("navContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>

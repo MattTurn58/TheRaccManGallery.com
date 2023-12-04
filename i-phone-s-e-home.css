@@ -1,0 +1,243 @@
+.header5 {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  background-color: var(--color-black);
+  width: 75px;
+  height: 320px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.gradient-box1 {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  background: linear-gradient(0deg, #bababa, #fff);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  height: 423px;
+}
+.iphone-se-home-child,
+.logo-icon5 {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+}
+.logo-icon5 {
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+.iphone-se-home-child {
+  border-radius: var(--br-4xs);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 51px;
+  height: 51px;
+}
+.the-raccman-gallery5 {
+  position: absolute;
+  top: 24px;
+  left: 80px;
+  display: inline-block;
+  width: 175px;
+  height: 24px;
+}
+.screenshot-2023-11-18-003613-13 {
+  position: absolute;
+  top: 92px;
+  left: 17px;
+  width: 135px;
+  height: 127px;
+  object-fit: cover;
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 9.88px;
+  background-color: var(--color-black);
+  box-shadow: 0 1.5px 1.83px 1.1px rgba(0, 0, 0, 0.25);
+  width: 180px;
+  height: 45px;
+}
+.see-more1 {
+  position: absolute;
+  top: 8.4px;
+  left: 31.5px;
+  font-weight: 500;
+}
+.iphone-se-home-inner,
+.rectangle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 45px;
+}
+.iphone-se-home-inner {
+  text-decoration: none;
+  top: 436px;
+  left: 70px;
+  text-align: left;
+  font-size: 23.41px;
+  color: inherit;
+  font-family: var(--font-forma-djr-micro);
+}
+.dennis-rockwell-13,
+.kita-portrait-13,
+.yonora-bust-13 {
+  position: absolute;
+  top: 92px;
+  left: 169px;
+  width: 134px;
+  height: 127px;
+  object-fit: cover;
+}
+.kita-portrait-13,
+.yonora-bust-13 {
+  top: 236px;
+  height: 183px;
+}
+.yonora-bust-13 {
+  left: 17px;
+  width: 135px;
+}
+.a-digital-artist2,
+.about-me1 {
+  position: absolute;
+  top: 528px;
+  left: 63px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+}
+.a-digital-artist2 {
+  top: 625px;
+  left: 27px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+  display: inline-block;
+  width: 267px;
+  height: 252px;
+}
+.footer5 {
+  position: absolute;
+  top: 907px;
+  left: 320px;
+  background-color: var(--color-black);
+  width: 170px;
+  height: 320px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.raccman1015 {
+  position: absolute;
+  top: 981px;
+  left: 70px;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  font-family: var(--font-forma-djr-micro);
+}
+.deviantart-logo-15 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.deviantart-logo-25 {
+  position: absolute;
+  top: 928px;
+  left: 68px;
+  width: 36px;
+  height: 36px;
+}
+.instagram-logo-25,
+.tumblr-logo-24 {
+  text-decoration: none;
+  position: absolute;
+  top: 927px;
+  left: 141px;
+  width: 37px;
+  height: 37px;
+}
+.tumblr-logo-24 {
+  top: 928px;
+  left: 215px;
+  width: 36px;
+  height: 36px;
+}
+.terms-of-service11 {
+  position: absolute;
+  top: 0;
+  left: 31.97%;
+  text-decoration: underline;
+}
+.terms-of-service10 {
+  text-decoration: none;
+  position: absolute;
+  top: 1036px;
+  left: 26px;
+  width: 269px;
+  height: 19px;
+  font-size: var(--font-size-smi);
+  color: inherit;
+  font-family: var(--font-arial);
+}
+.ham-menu-child13 {
+  position: absolute;
+  top: -7px;
+  left: -6px;
+  background-color: var(--color-white);
+  width: 42px;
+  height: 42px;
+}
+.ham-menu-child14,
+.ham-menu-child15,
+.ham-menu-child16 {
+  position: absolute;
+  height: 18.52%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 81.48%;
+  left: 0;
+  background-color: var(--color-black);
+}
+.ham-menu-child15,
+.ham-menu-child16 {
+  top: 40.74%;
+  bottom: 40.74%;
+}
+.ham-menu-child16 {
+  top: 81.48%;
+  bottom: 0;
+}
+.ham-menu4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+  left: 272px;
+  width: 30px;
+  height: 27px;
+}
+.iphone-se-home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1077px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-bebas-neue);
+}
